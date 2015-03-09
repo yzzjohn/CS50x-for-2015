@@ -1,0 +1,1 @@
+Hello everyone! This repository is my codes for CS50x's weekly programe sets on edx.org. I'll keep updating it during this year. Hope when the day I complete this comes, I can learn how to solve problems via computer science.
