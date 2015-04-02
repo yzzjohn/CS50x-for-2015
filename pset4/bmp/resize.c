@@ -96,7 +96,7 @@ int main(int argc, char* argv[])
     int plength = pWidth * sizeof(RGBTRIPLE) + ppadding;
 
     // iterate over infile's scanlines
-    for (int i = 0, biHeight = abs(bi.biHeight); i < biHeight; i++)
+    for (int i = 0; i < abs(pHeight); i++)
     {
         for (int l = 0; l < factor; l++)
         {
