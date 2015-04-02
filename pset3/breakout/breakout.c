@@ -1,9 +1,16 @@
-//
-// breakout.c
-//
-// Computer Science 50
-// Problem Set 3
-//
+/******************************************************************************
+ *
+ * breakout.c
+ *
+ * HarvardX: CS50x3 Introduction to Computer Science
+ * Problem Set 3
+ *
+ * John YZ Zhu
+ * yzzjohn@gmail.com
+ *
+ * A breakout game with GUI
+ *
+ *****************************************************************************/
 
 // standard libraries
 #define _XOPEN_SOURCE

@@ -1,0 +1,19 @@
+0.  BMP and GIF support 256 colors; JPEG supports 2^24 colors; PNG supports up to 2^48 truecolors.
+1.  GIF
+2.  Lossless compression keeps all the infomation of each pixel during compression while lossy one will lose some data.
+3.  JPEG
+4.   The system signal that the file has been deleted then moves all of the file’s FAT clusters to the hard drive’s list of free clusters.
+5.  Degaussing the drive or overwriting the drive's data.
+6.  A header file in C99 which defines several functions for integer with certain width
+7.  To insure that the code and the program is availablet to different Systems and Platforms.
+8.  BYTE: 1 Byte; WORD: 2 Bytes; LONG and DWORD: 4 Bytes.
+9.  0x4D42.
+10. bfSize is the size of whole BMP including the image and the headers; biSize is the size of the BITMAPINFOHEADER structure.
+11. A negative biHeight means the BMP is a top-down DIB with the origin at the upper left corner.
+12. biBitCount.
+13. If the outfile cannot be created in the current working directory (for example, no access), fopen will return NULL.
+14. Because we just need to read one RGB triple at a time.
+15. 3 Bytes.
+16. Skip over padding, if there is, and move the pointer to next RGB triple.
+17. This is an integer constant which, when used as the whence argument to the fseek or fseeko function, specifies that the offset provided is relative to the current file position.
+18. I think it should Rob with a puppy?
