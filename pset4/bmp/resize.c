@@ -115,16 +115,13 @@ int main(int argc, char* argv[])
                 for (int m = 0; m < factor; m++)
                     fwrite(&triple, sizeof(RGBTRIPLE), 1, outptr);
             }
-        }
 
-        // skip over padding, if any
-        fseek(inptr, padding, SEEK_CUR);
-
-        // then add it back (to demonstrate how)
-        for (int k = 0; k < padding; k++)
-        {
-            fputc(0x00, outptr);
-        }
+            // then add it back (to demonstrate how)
+            for (int k = 0; k < padding; k++)
+            {
+                fputc(0x00, outptr);
+            }
+       }
     }
 
     // close infile
